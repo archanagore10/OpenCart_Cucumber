@@ -12,3 +12,103 @@
 06:52:24.339 [main] INFO  stepDefinitions.steps - passed password
 06:52:24.932 [main] INFO  stepDefinitions.steps - clicked on Login button
 06:52:25.032 [main] INFO  stepDefinitions.steps - login successful
+08:49:00.551 [main] INFO  stepDefinitions.steps - opened URL
+08:49:01.048 [main] INFO  stepDefinitions.steps - clicked on my account
+08:49:01.281 [main] INFO  stepDefinitions.steps - clicked on login
+08:49:01.369 [main] INFO  stepDefinitions.steps - passed Username
+08:49:01.418 [main] INFO  stepDefinitions.steps - passed password
+08:49:01.698 [main] INFO  stepDefinitions.steps - clicked on Login button
+08:49:01.736 [main] INFO  stepDefinitions.steps - login successful
+08:52:49.563 [main] INFO  stepDefinitions.steps - opened URL
+08:52:49.753 [main] INFO  stepDefinitions.steps - clicked on my account
+08:52:50.000 [main] INFO  stepDefinitions.steps - clicked on login
+08:52:50.074 [main] INFO  stepDefinitions.steps - passed Username
+08:52:50.119 [main] INFO  stepDefinitions.steps - passed password
+08:52:50.516 [main] INFO  stepDefinitions.steps - clicked on Login button
+08:52:50.554 [main] INFO  stepDefinitions.steps - login successful
+09:02:22.870 [main] INFO  stepDefinitions.steps - opened URL
+09:02:23.306 [main] INFO  stepDefinitions.steps - clicked on my account
+09:02:23.480 [main] INFO  stepDefinitions.steps - clicked on login
+09:02:23.564 [main] INFO  stepDefinitions.steps - passed Username
+09:02:23.617 [main] INFO  stepDefinitions.steps - passed password
+09:02:23.890 [main] INFO  stepDefinitions.steps - clicked on Login button
+09:02:23.928 [main] INFO  stepDefinitions.steps - login successful
+09:14:12.649 [main] INFO  stepDefinitions.steps - opened URL
+09:14:13.145 [main] INFO  stepDefinitions.steps - clicked on my account
+09:14:13.384 [main] INFO  stepDefinitions.steps - clicked on login
+09:14:13.455 [main] INFO  stepDefinitions.steps - passed Username
+09:14:13.515 [main] INFO  stepDefinitions.steps - passed password
+09:14:13.829 [main] INFO  stepDefinitions.steps - clicked on Login button
+09:14:13.867 [main] INFO  stepDefinitions.steps - login successful
+09:26:21.088 [main] INFO  stepDefinitions.steps - opened URL
+09:26:21.529 [main] INFO  stepDefinitions.steps - clicked on my account
+09:26:21.778 [main] INFO  stepDefinitions.steps - clicked on login
+09:26:21.846 [main] INFO  stepDefinitions.steps - passed Username
+09:26:21.895 [main] INFO  stepDefinitions.steps - passed password
+09:26:22.245 [main] INFO  stepDefinitions.steps - clicked on Login button
+09:26:22.283 [main] INFO  stepDefinitions.steps - login successful
+09:28:23.616 [main] INFO  stepDefinitions.steps - opened URL
+09:28:24.080 [main] INFO  stepDefinitions.steps - clicked on my account
+09:28:24.308 [main] INFO  stepDefinitions.steps - clicked on login
+09:28:24.380 [main] INFO  stepDefinitions.steps - passed Username
+09:28:24.448 [main] INFO  stepDefinitions.steps - passed password
+09:28:24.849 [main] INFO  stepDefinitions.steps - clicked on Login button
+09:28:24.888 [main] INFO  stepDefinitions.steps - login successful
+09:29:24.285 [main] INFO  stepDefinitions.steps - opened URL
+09:29:24.711 [main] INFO  stepDefinitions.steps - clicked on my account
+09:29:24.944 [main] INFO  stepDefinitions.steps - clicked on login
+09:29:25.028 [main] INFO  stepDefinitions.steps - passed Username
+09:29:25.088 [main] INFO  stepDefinitions.steps - passed password
+09:29:25.359 [main] INFO  stepDefinitions.steps - clicked on Login button
+09:29:25.399 [main] INFO  stepDefinitions.steps - login successful
+09:30:06.985 [main] INFO  stepDefinitions.steps - opened URL
+09:30:07.410 [main] INFO  stepDefinitions.steps - clicked on my account
+09:30:07.714 [main] INFO  stepDefinitions.steps - clicked on login
+09:30:07.785 [main] INFO  stepDefinitions.steps - passed Username
+09:30:07.845 [main] INFO  stepDefinitions.steps - passed password
+09:30:08.183 [main] INFO  stepDefinitions.steps - clicked on Login button
+09:30:08.223 [main] INFO  stepDefinitions.steps - login successful
+09:49:30.357 [main] INFO  stepDefinitions.steps - opened URL
+09:49:30.777 [main] INFO  stepDefinitions.steps - clicked on my account
+09:49:30.959 [main] INFO  stepDefinitions.steps - clicked on login
+09:49:31.042 [main] INFO  stepDefinitions.steps - passed Username
+09:49:31.099 [main] INFO  stepDefinitions.steps - passed password
+09:49:31.309 [main] INFO  stepDefinitions.steps - clicked on Login button
+09:49:31.348 [main] INFO  stepDefinitions.steps - login successful
+15:51:16.368 [main] INFO  stepDefinitions.steps - opened URL
+15:51:16.648 [main] INFO  stepDefinitions.steps - clicked on my account
+15:52:37.690 [main] INFO  stepDefinitions.steps - opened URL
+15:52:38.133 [main] INFO  stepDefinitions.steps - clicked on my account
+15:52:38.303 [main] INFO  stepDefinitions.steps - clicked on login
+15:52:38.409 [main] INFO  stepDefinitions.steps - passed Username
+15:52:38.463 [main] INFO  stepDefinitions.steps - passed password
+15:52:38.685 [main] INFO  stepDefinitions.steps - clicked on Login button
+15:52:38.726 [main] INFO  stepDefinitions.steps - login successful
+14:06:39.512 [main] INFO  hooks.MyHooks - opened URL
+14:06:39.953 [main] INFO  hooks.MyHooks - clicked on my account
+14:06:40.120 [main] INFO  hooks.MyHooks - clicked on login
+14:06:40.212 [main] INFO  hooks.MyHooks - passed Username
+14:06:40.263 [main] INFO  hooks.MyHooks - passed password
+14:06:40.506 [main] INFO  hooks.MyHooks - clicked on Login button
+14:06:40.547 [main] INFO  hooks.MyHooks - login successful
+14:44:30.209 [main] INFO  hooks.MyHooks - opened URL
+14:44:30.639 [main] INFO  hooks.MyHooks - clicked on my account
+14:44:30.840 [main] INFO  hooks.MyHooks - clicked on login
+14:44:30.921 [main] INFO  hooks.MyHooks - passed Username
+14:44:30.969 [main] INFO  hooks.MyHooks - passed password
+14:44:31.143 [main] INFO  hooks.MyHooks - clicked on Login button
+14:44:41.243 [main] ERROR hooks.MyHooks - login unsuccessful
+16:38:04.379 [main] INFO  hooks.MyHooks - opened URL
+16:38:04.810 [main] INFO  hooks.MyHooks - clicked on my account
+16:38:05.014 [main] INFO  hooks.MyHooks - clicked on login
+16:38:05.119 [main] INFO  hooks.MyHooks - passed Username
+16:38:05.168 [main] INFO  hooks.MyHooks - passed password
+16:38:05.434 [main] INFO  hooks.MyHooks - clicked on Login button
+16:38:15.456 [main] ERROR hooks.MyHooks - login unsuccessful
+09:15:27.361 [main] INFO  hooks.MyHooks - opened URL
+09:15:27.825 [main] INFO  hooks.MyHooks - clicked on my account
+09:15:28.078 [main] INFO  hooks.MyHooks - clicked on login
+09:15:28.180 [main] INFO  hooks.MyHooks - passed Username
+09:15:28.240 [main] INFO  hooks.MyHooks - passed password
+09:15:28.504 [main] INFO  hooks.MyHooks - clicked on Login button
+09:15:28.541 [main] INFO  hooks.MyHooks - login successful

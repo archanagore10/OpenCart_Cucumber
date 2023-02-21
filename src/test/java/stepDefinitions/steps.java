@@ -1,74 +1,24 @@
 package stepDefinitions;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.time.Duration;
-import java.util.Properties;
-import java.util.ResourceBundle;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
-import io.cucumber.java.en.*;
+import hooks.DriverInstance;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 
-public class steps {
+public class steps extends DriverInstance{
 	
-	WebDriver driver;
-	Logger logger;
-	Properties p;
-	//ResourceBundle rb;
-	public String br;
-	HomePage homepage;
-	LoginPage loginpage;
-	MyAccountPage myacc;
-	
-	@Before
-	public void setup() throws IOException
-	{
-		logger=LogManager.getLogger(this.getClass()); 
-		//rb=ResourceBundle.getBundle("config");
-		//br=rb.getString("browser");
-		
-		FileReader file=new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties");
-		 p=new Properties();
-		 p.load(file);
-		 br=p.getProperty("browser");
-		 System.out.println("browser is"+br);
-		 
-	}
-	
-	@After
-	public void tearDown(Scenario scenario) 
-	{
-		System.out.println("Scenario status===>"+scenario.getStatus());	//to get the status of the scenario-pass or fail
-		if(scenario.isFailed())
-		{
-			TakesScreenshot ts=(TakesScreenshot)driver;
-			byte[]screenshot=ts.getScreenshotAs(OutputType.BYTES);
-			scenario.attach(screenshot,"image/png",scenario.getName());
-			
-		}
-		
-		driver.quit();
-	}
-	
-	@Given("user launch browser")
-	public void user_launch_browser() {
+	@Given("user launch browser and opens URL")
+	public void user_launch_browser_and_opens_URL() {
 		
 		if(br.equals("chrome"))
         {
@@ -82,22 +32,25 @@ public class steps {
         {
             driver = new EdgeDriver();
         }
-
 		
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	}
-
-	@Given("opens URL {string}")
-	public void opens_url(String url) {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get(appurl);
 		
-		driver.get(url);
 		logger.info("opened URL");
+		
 		driver.manage().window().maximize();
+	    
 	}
 
-	//@When("user navigate to My Account menu")
-	//public void user_navigate_to_my_account_menu() {
-		
+//	@Given("opens URL")
+//	public void opens_URL {
+//		
+//		driver.get(appurl);
+//		logger.info("opened URL");
+//		driver.manage().window().maximize();
+//	}
+
+			
 	@When("user clicks on Login after navigating to My Account menu")
 	public void user_clicks_on_login_after_navigating_to_my_account_menu() {
 	   
@@ -146,8 +99,4 @@ public class steps {
 			Assert.assertTrue(false);
 		}
 	}
-
-
-
-
 }
