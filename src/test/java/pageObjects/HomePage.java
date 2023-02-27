@@ -12,27 +12,48 @@ public class HomePage extends BasePage{
 	{
 		super(driver);
 	}
-	
-	@FindBy(linkText="My Account")
-	WebElement myaccount;
+
+	@FindBy(xpath="//ul[@class='list-inline']/li[2]/a")
+	WebElement myAccount;
 	
 	@FindBy(linkText="Login")
-	WebElement login;
+	WebElement loginLink;
+	
+	//@FindBy(xpath="//div[@id='search']/input")
+	@FindBy(name="search")
+	WebElement searchBox;
+	
+	@FindBy(xpath="//span[@class='input-group-btn']")
+	WebElement searchButton;
+	
+	@FindBy(linkText = "Register")
+	WebElement registerButton;
+	
 	
 	public void clickMyAccount()
 	{
-		myaccount.click();
+		myAccount.click();
 	}
-		
-	public void clickLogin()
+	
+	public void clickLoginLink()
 	{
-		login.click();
+		loginLink.click();
 	}
 	
+	public void SearchProduct(String product)
+	{
+		searchBox.clear();
+		searchBox.sendKeys(product);
+	}
 	
+	public void clickSearchButton()
+	{
+		searchButton.click();
+	}
 	
+	public void clickRegisterButton()
+	{
+		registerButton.click();
+	}
 	
-	
-	
-
 }

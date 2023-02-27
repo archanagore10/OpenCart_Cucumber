@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage extends BasePage{
 	
 	WebDriver driver;
+	
 	public LoginPage(WebDriver driver)
 	{
 		super(driver);
@@ -19,23 +20,24 @@ public class LoginPage extends BasePage{
 	WebElement password;
 	
 	@FindBy(xpath="//input[@type='submit']")
-	WebElement login_btn;
+	WebElement loginButton;
 	
-	
-	public void setUsername(String mail)
+	public void setEmail(String mail)
 	{
+		
+		email.clear();
 		email.sendKeys(mail);
 	}
 	
 	public void setPassword(String pass)
 	{
+		
+		password.clear();
 		password.sendKeys(pass);
 	}
 	
 	public void clickLoginButton()
 	{
-		login_btn.click();
+		loginButton.click();
 	}
-	
-	
 }

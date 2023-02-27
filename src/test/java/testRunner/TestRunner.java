@@ -1,29 +1,38 @@
 package testRunner;
 
-import org.junit.runner.RunWith;
+//import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
-
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-
-
-@RunWith(Cucumber.class)
-@CucumberOptions( 
-					features={"src/test/resources/Features/Login.feature"},		//when you want run specific file
-					//features={"src/test/resources/Features"},				//for all of the files in a folder
-					//features={"src/test/resources/Features/Login.feature", "src/test/resources/Features/LoginDDT.feature"},		//selected files from a folder
-					glue={"stepDefinitions", "hooks"},    //package name,
-					dryRun=false,
-					monochrome=true,
-					plugin= {"pretty","html:reports/cucumber.html",		//generates reports in reports folder
-							"json:reports/JSONReports/report.json",
-						//	"pretty","html:target/cucumber.html",		//generates reports in target folder
-						//	"json:target/JSONReports/report.json",
-							}
-					
-					
-				)
-public class TestRunner{
-
-
+//@RunWith(Cucumber.class)
+@CucumberOptions(glue={"stepDefinition","hooks"},
+				
+				monochrome=true,
+				//features= {"src/test/resources/Features/Registration.feature"},
+				features= {"src/test/resources/Features"},// "src/test/resources/Features/Login.feature"},
+				
+				
+				dryRun=!true,	//when dryrun=true shows only implemented steps. no print statements
+				//snippets = SnippetType.CAMELCASE,	//shows snippets without underscore
+				
+				tags="",// "@Regression",		//do not use curly braces. shows type mismatch error.
+				plugin= {"pretty","html:CucumberReports.html",	//without pretty only print statements are seen in console
+						
+						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+						
+						"json:Reports/jsonReports.json",
+						"junit:Reports/JunitReports.xml"
+						}
+				
+					)
+//public class TestRunner {
+	
+public class TestRunner extends AbstractTestNGCucumberTests{
+	
+//	 @Override								//these 4 stmts are for parallel execution using testNG
+//	    @DataProvider(parallel = true)
+//	    public Object[][] scenarios() {
+//	        return super.scenarios();
+//}
 }
+   

@@ -1,10 +1,40 @@
-Feature: login with valid credentials
+@E2E
+Feature: login functionality
 
-  Scenario: Successful login with valid credentials
-    Given user launch browser and opens URL
-   # And opens URL 
-    When user clicks on Login after navigating to My Account menu    
-    And user enters email as "admin123@gmail.com" and password as "admin@123"
+  Background: 
+    Given user launch browser
+    And navigates to the application
+    When user clicks on Login after navigating to My Account menu
+
+  @Regression
+  Scenario Outline: Successful login with valid credentials
+    And user enters "<email>" and "<password>"
     And click on login button
     Then user navigates to My Account page
- 
+
+    @one
+    Examples: 
+      | email              | password  |
+      | admin123@gmail.com | admin@123 |
+
+  @Regression
+  Scenario Outline: login with invalid credentials
+    And user enters "<email>" and "<password>"
+    And click on login button
+    Then user should not navigate to My Account page
+
+    Examples: 
+      | email           | password  |
+      | admin@gmail.com | admin@123 |
+
+  #| archanagore@gmail.com | test@123  |
+  
+  @dataDriven
+  Scenario Outline: Successful login with valid credentials
+    And user enters email and password from excel "<sheetname>" and <rownumber>
+    And click on login button
+    Then user navigates to My Account page
+
+    Examples: 
+      | sheetname | rownumber |
+      | Sheet1    |         0 |
