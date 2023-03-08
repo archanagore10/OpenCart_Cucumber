@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 27, 2023 09:57:58 AM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 8, 2023 10:51:22 AM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -71,6 +76,12 @@
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
 </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@E2E</a><a class="dropdown-item" href="#">@one</a><a class="dropdown-item" href="#">@Regression</a>
+</ul>
+</li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
@@ -79,9 +90,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Application Registration</p>
+            <p class="name">login functionality</p>
             <p class="text-sm">
-              <span>9:57:58 AM</span> / <span>00:00:06:347</span>
+              <span>10:51:22 AM</span> / <span>00:00:05:771</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,10 +100,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Application Registration</h5>
-<span class='badge badge-success'>02.27.2023 9:57:58 AM</span>
-<span class='badge badge-danger'>02.27.2023 9:58:05 AM</span>
-<span class='badge badge-default'>00:00:06:347</span>
+<h5 class="test-status text-pass">login functionality</h5>
+<span class='badge badge-success'>03.08.2023 10:51:22 AM</span>
+<span class='badge badge-danger'>03.08.2023 10:51:28 AM</span>
+<span class='badge badge-default'>00:00:05:771</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -104,49 +115,44 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Registration using data table</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Successful login with valid credentials</div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDefinition.LoginSteps.user_launch_browser()">
-                <span>Given user launch browser</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Successful login with valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home page</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.LoginSteps.navigates_to_the_application()">
-                <span>And navigates to the application</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login after navigating to My Account menu</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.RegistrationSteps.user_clicks_on_rgister_after_navigationg_to_my_account_menu()">
-                <span>When user clicks on rgister after navigationg to My Account menu</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters "admin123@gmail.com" and "admin@123"</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.RegistrationSteps.user_enters_following_user_details(io.cucumber.datatable.DataTable)">
-                <span>And user enters following user details</span>
-      <div><table class='markup-table table '><tr><td>Archana</td><td>Gore</td><td>archana_gore@gmail.com</td><td>1234567819</td><td>admin@123</td><td>admin@123</td></tr><tr><td>Linda</td><td>margose</td><td>linda@gmail.com</td><td>2345617816</td><td>test@123</td><td>test@123</td></tr></table>
-      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on login button</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.RegistrationSteps.user_accepts_privacy_policy()">
-                <span>And user accepts privacy policy</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user navigates to My Account page</span>
       <div>
       </div>
+                  </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.RegistrationSteps.clicks_on_continue_button()">
-                <span>And clicks on continue button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.RegistrationSteps.registration_should_be_successful()">
-                <span>Then Registration should be successful</span>
-      <div>
-      </div>
-              </div>
-          </div>
+            </div>
         </div>
   </div>
 </div>
@@ -161,18 +167,142 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@E2E</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@E2E</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Successful login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">login functionality.Successful login with valid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@one</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@one</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Successful login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">login functionality.Successful login with valid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Regression</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Regression</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Successful login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">login functionality.Successful login with valid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 27, 2023 09:57:58 AM</h3>
+<h3>Mar 8, 2023 10:51:22 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 27, 2023 09:58:05 AM</h3>
+<h3>Mar 8, 2023 10:51:28 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -243,7 +373,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>7</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>5</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -262,10 +392,43 @@
 </div></div>
 <script>
 var timeline = {
-"Application Registration":6.347
+"login functionality":5.771
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@E2E</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@one</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Regression</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 </div>
 </div>
 <script>
@@ -282,7 +445,7 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 7,
+passGrandChild: 5,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,

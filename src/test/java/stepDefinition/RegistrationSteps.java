@@ -25,13 +25,14 @@ public class RegistrationSteps extends DriverInstance{
 	}
 
 	@When("user enters following user details")
-	public void user_enters_following_user_details(DataTable userData){
+	public void user_enters_following_user_details(DataTable userData) throws InterruptedException{
 	   
 		registerPage=new RegistrationPage(driver);
 		
 		List<List<String>> data=userData.asLists();
 		for(List<String> e :data)
 		{
+			Thread.sleep(1000);
 			registerPage.setFirstName(e.get(0));
 			registerPage.setLastName(e.get(1));
 		}

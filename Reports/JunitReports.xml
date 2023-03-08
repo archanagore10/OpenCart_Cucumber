@@ -1,54 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="16.93" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="login functionality" name="Successful login with valid credentials - Example #1.1" time="3.633">
+<testsuite name="Cucumber" time="5.915" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="login functionality" name="Successful login with valid credentials - Example #1.1" time="5.781">
 <system-out><![CDATA[
-Given user launch browser...................................................passed
-And navigates to the application............................................passed
-When user clicks on Login after navigating to My Account menu...............passed
+Given user is on Home page..................................................passed
+And user clicks on Login after navigating to My Account menu................passed
 And user enters "admin123@gmail.com" and "admin@123"........................passed
 And click on login button...................................................passed
 Then user navigates to My Account page......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="login functionality" name="login with invalid credentials - Example #1.1" time="2.164">
-<system-out><![CDATA[
-Given user launch browser...................................................passed
-And navigates to the application............................................passed
-When user clicks on Login after navigating to My Account menu...............passed
-And user enters "admin@gmail.com" and "admin@123"...........................passed
-And click on login button...................................................passed
-Then user should not navigate to My Account page............................passed
-]]></system-out>
-</testcase>
-<testcase classname="login functionality" name="Successful login with valid credentials - Example #1.1" time="2.86">
-<system-out><![CDATA[
-Given user launch browser...................................................passed
-And navigates to the application............................................passed
-When user clicks on Login after navigating to My Account menu...............passed
-And user enters email and password from excel "Sheet1" and 0................passed
-And click on login button...................................................passed
-Then user navigates to My Account page......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Application Registration" name="Registration using data table" time="2.49">
-<system-out><![CDATA[
-Given user launch browser...................................................passed
-And navigates to the application............................................passed
-When user clicks on rgister after navigationg to My Account menu............passed
-And user enters following user details......................................passed
-And user accepts privacy policy.............................................passed
-And clicks on continue button...............................................passed
-Then Registration should be successful......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Search product functionality" name="searching a product - Example #1.1" time="5.608">
-<system-out><![CDATA[
-Given user launch browser...................................................passed
-And navigates to the application............................................passed
-When user search a "iphone".................................................passed
-And clicks on the "iphone"..................................................passed
-And adds it to the cart.....................................................passed
-Then add to cart is successful..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

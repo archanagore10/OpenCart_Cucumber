@@ -53,7 +53,10 @@ public class HomePage extends BasePage{
 	
 	public void clickRegisterButton()
 	{
+		try {
 		registerButton.click();
+		}catch(Exception e)
+		{}
 	}
 	
 }

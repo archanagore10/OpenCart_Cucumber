@@ -7,14 +7,19 @@ import java.util.Map;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+
 
 import hooks.DriverInstance;
+import hooks.MyHooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -26,41 +31,14 @@ import utils.ExcelReader;
 public class LoginSteps extends DriverInstance{
 
 	
-
-	@Given("user launch browser")
-	public void user_launch_browser() {
-	   
-			if(br.equalsIgnoreCase("chrome"))
-			{
-				 driver=new ChromeDriver();
-			}
-			
-			else if(br.equalsIgnoreCase("edge"))
-			{
-				 driver=new EdgeDriver();
-			}
-			
-			else if (br.equalsIgnoreCase("firefox"))
-			{
-				 driver=new FirefoxDriver();
-			}
-		wait=new WebDriverWait(driver, Duration.ofSeconds(10));
-		
-		
-		//  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
-		
-	}
+	//WebDriver driver=MyHooks.driver;
 	
-		
-	@Given("navigates to the application")
-	public void navigates_to_the_application() {
-		
-		driver.get(appurl);
-		driver.manage().window().maximize();
-	    
-	}
+	@Given("user is on Home page")
+	public void user_is_on_Home_page() {
 	
+		homepage=new HomePage(driver);
+	}
+		
 	
 	@When("user clicks on Login after navigating to My Account menu")
 	public void user_clicks_on_login_after_navigating_to_my_account_menu() 
