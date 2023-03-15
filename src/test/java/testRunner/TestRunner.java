@@ -17,7 +17,7 @@ import io.cucumber.testng.CucumberOptions;
 				dryRun=!true,	//when dryrun=true shows only implemented steps. no print statements
 				//snippets = SnippetType.CAMELCASE,	//shows snippets without underscore
 				
-				tags="@one",// "@Regression",		//do not use curly braces. shows type mismatch error.
+				tags="@Regression",		//do not use curly braces. shows type mismatch error.
 				plugin= {"pretty","html:CucumberReports.html",	//without pretty only print statements are seen in console
 						
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
@@ -31,10 +31,10 @@ import io.cucumber.testng.CucumberOptions;
 	
 public class TestRunner extends AbstractTestNGCucumberTests{
 	
-	 @Override								//these 4 stmts are for parallel execution using testNG
-	    @DataProvider(parallel = false)			//make parallel= true when want to run parallely
-	    public Object[][] scenarios() {
-	        return super.scenarios();
-}
+//	 @Override								//these 4 stmts are for parallel execution using testNG
+//	    @DataProvider(parallel = true)			//make parallel= true when want to run parallely
+//	    public Object[][] scenarios() {
+//	        return super.scenarios();
+//}
 }
    

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
-import hooks.Context;
+
 import hooks.DriverInstance;
 import hooks.MyHooks;
 import io.cucumber.java.en.Then;
@@ -24,7 +24,10 @@ public class SearchProductSteps extends DriverInstance {
 		homepage = new HomePage(driver);
 
 		Thread.sleep(1000);
+		logger.info("searching a product");
 		homepage.SearchProduct(pname);
+		
+		logger.info("clicking on search button");
 		homepage.clickSearchButton();
 
 	}
@@ -40,7 +43,8 @@ public class SearchProductSteps extends DriverInstance {
 
 		Thread.sleep(2000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='content']/div[3]//img")));
-
+		
+		logger.info("clicking on a searched  product");
 		sp.clickOnSearchedProduct(pname);
 	}
 
@@ -50,6 +54,7 @@ public class SearchProductSteps extends DriverInstance {
 		sp = new SearchPage(driver);
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='button-cart']")));
+		logger.info("clicking on add to cart button");
 		sp.addToCart();
 	}
 
@@ -66,9 +71,13 @@ public class SearchProductSteps extends DriverInstance {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Success: You have added ']")));
 		if (sp.verifySuccessMsg()) {
 			System.out.println("success message:" + sp.verifySuccessMsg());
+			
+			logger.info("add to cart successful");
 			Assert.assertTrue(true);
 		} else {
 			System.out.println("success message:" + sp.verifySuccessMsg());
+			
+			logger.info("add to cart unsuccessful");
 			Assert.assertTrue(false);
 		}
 		// driver.quit();

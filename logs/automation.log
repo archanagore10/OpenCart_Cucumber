@@ -1,117 +1,33 @@
-17:59:57.575 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on my account
-17:59:57.946 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on login
-17:59:58.041 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-17:59:58.183 [TestNG-PoolService-1] INFO  hooks.MyHooks -  Username entered
-17:59:58.735 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-17:59:58.816 [TestNG-PoolService-1] INFO  hooks.MyHooks -  password entered
-18:05:58.425 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on my account
-18:05:58.441 [TestNG-PoolService-2] INFO  hooks.MyHooks - clicked on my account
-18:05:58.483 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-18:10:57.228 [TestNG-PoolService-2] INFO  hooks.MyHooks - clicked on my account
-18:10:57.258 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on my account
-18:10:57.300 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-18:19:58.932 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on my account
-18:19:58.997 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-18:19:59.010 [TestNG-PoolService-2] INFO  hooks.MyHooks - clicked on my account
-09:30:15.138 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on my account
-09:30:15.671 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-09:30:16.185 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-09:30:16.304 [TestNG-PoolService-2] INFO  hooks.MyHooks - clicked on my account
-09:30:16.495 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on login
-09:33:51.661 [TestNG-PoolService-2] INFO  hooks.MyHooks - clicked on my account
-09:33:51.706 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on my account
-09:33:51.727 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-09:35:20.108 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-09:35:20.171 [TestNG-PoolService-2] INFO  hooks.MyHooks - clicked on my account
-09:35:20.184 [TestNG-PoolService-1] INFO  hooks.MyHooks - clicked on my account
-09:37:05.514 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-09:37:05.811 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-09:37:05.893 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-09:37:05.964 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-09:37:06.274 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-09:37:06.308 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-09:39:13.916 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-09:39:14.209 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-09:39:14.295 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-09:39:14.377 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-09:39:14.625 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-09:39:14.656 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-09:45:22.496 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-09:45:22.747 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-09:45:22.842 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-09:45:22.926 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-09:45:23.195 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-09:45:23.230 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-12:18:44.755 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-12:18:45.435 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-12:18:45.677 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-12:18:45.867 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-12:18:46.389 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-12:18:46.457 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-12:19:20.357 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-12:19:20.872 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-12:19:21.060 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-12:19:21.218 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-12:19:21.598 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-12:19:21.667 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-12:20:04.481 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-12:20:04.934 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-12:20:05.123 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-12:20:05.271 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-12:20:05.690 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-12:20:05.751 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-12:21:17.525 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-12:21:17.992 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-12:21:18.187 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-12:21:18.330 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-12:21:18.753 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-12:21:18.878 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-12:23:21.763 [main] INFO  hooks.MyHooks - clicked on my account
-12:23:22.297 [main] INFO  hooks.MyHooks - clicked on login
-12:23:22.505 [main] INFO  hooks.MyHooks -  Username entered
-12:23:22.659 [main] INFO  hooks.MyHooks -  password entered
-12:23:23.079 [main] INFO  hooks.MyHooks - clicked on Login button
-12:23:23.145 [main] INFO  hooks.MyHooks - login successful
-12:31:01.768 [main] INFO  hooks.MyHooks - clicked on my account
-12:31:02.265 [main] INFO  hooks.MyHooks - clicked on login
-12:31:02.466 [main] INFO  hooks.MyHooks -  Username entered
-12:31:02.611 [main] INFO  hooks.MyHooks -  password entered
-12:31:02.987 [main] INFO  hooks.MyHooks - clicked on Login button
-12:31:03.045 [main] INFO  hooks.MyHooks - login successful
-12:33:25.664 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on my account
-12:33:26.145 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on login
-12:33:26.367 [TestNG-PoolService-0] INFO  hooks.MyHooks -  Username entered
-12:33:26.578 [TestNG-PoolService-0] INFO  hooks.MyHooks -  password entered
-12:33:27.032 [TestNG-PoolService-0] INFO  hooks.MyHooks - clicked on Login button
-12:33:27.102 [TestNG-PoolService-0] INFO  hooks.MyHooks - login successful
-12:46:53.786 [main] INFO  hooks.MyHooks - clicked on my account
-12:46:54.324 [main] INFO  hooks.MyHooks - clicked on login
-12:46:54.550 [main] INFO  hooks.MyHooks -  Username entered
-12:46:54.700 [main] INFO  hooks.MyHooks -  password entered
-12:46:55.075 [main] INFO  hooks.MyHooks - clicked on Login button
-12:46:55.147 [main] INFO  hooks.MyHooks - login successful
-12:58:09.006 [main] INFO  hooks.MyHooks - clicked on my account
-12:58:09.328 [main] INFO  hooks.MyHooks - clicked on login
-12:58:09.422 [main] INFO  hooks.MyHooks -  Username entered
-12:58:09.497 [main] INFO  hooks.MyHooks -  password entered
-12:58:09.743 [main] INFO  hooks.MyHooks - clicked on Login button
-12:58:09.779 [main] INFO  hooks.MyHooks - login successful
-10:49:20.970 [main] INFO  hooks.MyHooks - clicked on my account
-10:51:27.175 [main] INFO  hooks.MyHooks - clicked on my account
-10:51:27.456 [main] INFO  hooks.MyHooks - clicked on login
-10:51:27.551 [main] INFO  hooks.MyHooks -  Username entered
-10:51:27.623 [main] INFO  hooks.MyHooks -  password entered
-10:51:27.935 [main] INFO  hooks.MyHooks - clicked on Login button
-10:51:27.976 [main] INFO  hooks.MyHooks - login successful
-10:52:52.991 [main] INFO  hooks.MyHooks - clicked on my account
-10:52:53.296 [main] INFO  hooks.MyHooks - clicked on login
-10:52:53.426 [main] INFO  hooks.MyHooks -  Username entered
-10:52:53.504 [main] INFO  hooks.MyHooks -  password entered
-10:52:53.783 [main] INFO  hooks.MyHooks - clicked on Login button
-10:52:53.820 [main] INFO  hooks.MyHooks - login successful
-10:53:52.386 [main] INFO  hooks.MyHooks - clicked on my account
-10:53:52.682 [main] INFO  hooks.MyHooks - clicked on login
-10:53:52.815 [main] INFO  hooks.MyHooks -  Username entered
-10:53:52.911 [main] INFO  hooks.MyHooks -  password entered
-10:53:53.265 [main] INFO  hooks.MyHooks - clicked on Login button
-10:53:53.300 [main] INFO  hooks.MyHooks - login successful
+10:19:56.543 [main] INFO  hooks.MyHooks - clicked on my account
+10:19:56.808 [main] INFO  hooks.MyHooks - clicked on login
+10:19:56.903 [main] INFO  hooks.MyHooks -  Username entered
+10:19:56.978 [main] INFO  hooks.MyHooks -  password entered
+10:19:57.205 [main] INFO  hooks.MyHooks - clicked on Login button
+10:19:57.239 [main] INFO  hooks.MyHooks - login successful
+10:19:59.131 [main] INFO  hooks.MyHooks - clicked on my account
+10:19:59.386 [main] INFO  hooks.MyHooks - clicked on login
+10:19:59.457 [main] INFO  hooks.MyHooks -  Username entered
+10:19:59.530 [main] INFO  hooks.MyHooks -  password entered
+10:19:59.705 [main] INFO  hooks.MyHooks - clicked on Login button
+10:22:02.977 [main] INFO  hooks.MyHooks - clicked on my account
+10:22:03.556 [main] INFO  hooks.MyHooks - clicked on login
+10:22:03.790 [main] INFO  hooks.MyHooks -  Username entered
+10:22:03.954 [main] INFO  hooks.MyHooks -  password entered
+10:22:04.329 [main] INFO  hooks.MyHooks - clicked on Login button
+10:22:04.392 [main] INFO  hooks.MyHooks - login successful
+10:22:07.805 [main] INFO  hooks.MyHooks - clicked on my account
+10:22:08.203 [main] INFO  hooks.MyHooks - clicked on login
+10:22:08.401 [main] INFO  hooks.MyHooks -  Username entered
+10:22:08.568 [main] INFO  hooks.MyHooks -  password entered
+10:22:08.871 [main] INFO  hooks.MyHooks - clicked on Login button
+10:22:24.006 [main] INFO  hooks.MyHooks - clicked on my account
+10:22:24.368 [main] INFO  hooks.MyHooks - clicked on login
+10:22:24.555 [main] INFO  hooks.MyHooks -  Username entered
+10:22:24.760 [main] INFO  hooks.MyHooks -  password entered
+10:22:25.092 [main] INFO  hooks.MyHooks - clicked on Login button
+10:22:25.136 [main] INFO  hooks.MyHooks - login successful
+10:22:27.533 [main] INFO  hooks.MyHooks - clicked on my account
+10:22:27.896 [main] INFO  hooks.MyHooks - clicked on login
+10:22:28.013 [main] INFO  hooks.MyHooks -  Username entered
+10:22:28.129 [main] INFO  hooks.MyHooks -  password entered
+10:22:28.399 [main] INFO  hooks.MyHooks - clicked on Login button

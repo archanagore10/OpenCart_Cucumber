@@ -46,7 +46,7 @@ public class MyHooks extends DriverInstance {
 			driver = new EdgeDriver();
 		}
 
-		else {
+		else if (br.equalsIgnoreCase("firefox")){
 			driver = new FirefoxDriver();
 		}
 
