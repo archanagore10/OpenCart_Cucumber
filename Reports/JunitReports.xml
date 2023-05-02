@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="8.501" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="login functionality" name="Successful login with valid credentials - Example #1.1" time="5.257">
+<testsuite name="Cucumber" time="6.362" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="login functionality" name="Successful login with valid credentials - Example #1.1" time="6.195">
 <system-out><![CDATA[
 Given user is on Home page..................................................passed
 And user clicks on Login after navigating to My Account menu................passed
 And user enters "admin123@gmail.com" and "admin@123"........................passed
 And click on login button...................................................passed
 Then user navigates to My Account page......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="login functionality" name="login with invalid credentials - Example #1.1" time="3.012">
-<system-out><![CDATA[
-Given user is on Home page..................................................passed
-And user clicks on Login after navigating to My Account menu................passed
-And user enters "admin@gmail.com" and "admin@123"...........................passed
-And click on login button...................................................passed
-Then user should not navigate to My Account page............................passed
 ]]></system-out>
 </testcase>
 </testsuite>

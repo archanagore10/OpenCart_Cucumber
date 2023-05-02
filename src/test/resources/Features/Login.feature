@@ -22,12 +22,13 @@ Feature: login functionality
     And click on login button
     Then user should not navigate to My Account page
 
+@invalid
     Examples: 
       | email           | password  |
       | admin@gmail.com | admin@123 |
 
   #| archanagore@gmail.com | test@123  |
-  #  @dataDriven
+  @dataDriven
   Scenario Outline: Successful login with valid credentials
     And user enters email and password from excel "<sheetname>" and <rownumber>
     And click on login button
@@ -36,3 +37,4 @@ Feature: login functionality
     Examples: 
       | sheetname | rownumber |
       | Sheet1    |         0 |
+      | Sheet1    |         1 |

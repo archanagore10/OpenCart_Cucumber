@@ -12,18 +12,19 @@ import io.cucumber.testng.CucumberOptions;
 				monochrome=true,
 				//features= {"src/test/resources/Features/Login.feature"},
 				features= {"src/test/resources/Features"},// "src/test/resources/Features/Login.feature"},
-				
+				//features="@target/rerun.txt",		//runs failures only
 				
 				dryRun=!true,	//when dryrun=true shows only implemented steps. no print statements
 				//snippets = SnippetType.CAMELCASE,	//shows snippets without underscore
 				
-				tags="@Regression",		//do not use curly braces. shows type mismatch error.
+				tags="@one",		//do not use curly braces. shows type mismatch error.
 				plugin= {"pretty","html:CucumberReports.html",	//without pretty only print statements are seen in console
 						
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 						
 						"json:Reports/jsonReports.json",
-						"junit:Reports/JunitReports.xml"
+						"junit:Reports/JunitReports.xml",	// to capture failures
+						"rerun:target/rerun.txt"
 						}
 				
 					)

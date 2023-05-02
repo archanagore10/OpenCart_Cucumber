@@ -1,33 +1,61 @@
-10:19:56.543 [main] INFO  hooks.MyHooks - clicked on my account
-10:19:56.808 [main] INFO  hooks.MyHooks - clicked on login
-10:19:56.903 [main] INFO  hooks.MyHooks -  Username entered
-10:19:56.978 [main] INFO  hooks.MyHooks -  password entered
-10:19:57.205 [main] INFO  hooks.MyHooks - clicked on Login button
-10:19:57.239 [main] INFO  hooks.MyHooks - login successful
-10:19:59.131 [main] INFO  hooks.MyHooks - clicked on my account
-10:19:59.386 [main] INFO  hooks.MyHooks - clicked on login
-10:19:59.457 [main] INFO  hooks.MyHooks -  Username entered
-10:19:59.530 [main] INFO  hooks.MyHooks -  password entered
-10:19:59.705 [main] INFO  hooks.MyHooks - clicked on Login button
-10:22:02.977 [main] INFO  hooks.MyHooks - clicked on my account
-10:22:03.556 [main] INFO  hooks.MyHooks - clicked on login
-10:22:03.790 [main] INFO  hooks.MyHooks -  Username entered
-10:22:03.954 [main] INFO  hooks.MyHooks -  password entered
-10:22:04.329 [main] INFO  hooks.MyHooks - clicked on Login button
-10:22:04.392 [main] INFO  hooks.MyHooks - login successful
-10:22:07.805 [main] INFO  hooks.MyHooks - clicked on my account
-10:22:08.203 [main] INFO  hooks.MyHooks - clicked on login
-10:22:08.401 [main] INFO  hooks.MyHooks -  Username entered
-10:22:08.568 [main] INFO  hooks.MyHooks -  password entered
-10:22:08.871 [main] INFO  hooks.MyHooks - clicked on Login button
-10:22:24.006 [main] INFO  hooks.MyHooks - clicked on my account
-10:22:24.368 [main] INFO  hooks.MyHooks - clicked on login
-10:22:24.555 [main] INFO  hooks.MyHooks -  Username entered
-10:22:24.760 [main] INFO  hooks.MyHooks -  password entered
-10:22:25.092 [main] INFO  hooks.MyHooks - clicked on Login button
-10:22:25.136 [main] INFO  hooks.MyHooks - login successful
-10:22:27.533 [main] INFO  hooks.MyHooks - clicked on my account
-10:22:27.896 [main] INFO  hooks.MyHooks - clicked on login
-10:22:28.013 [main] INFO  hooks.MyHooks -  Username entered
-10:22:28.129 [main] INFO  hooks.MyHooks -  password entered
-10:22:28.399 [main] INFO  hooks.MyHooks - clicked on Login button
+09:32:57.637 [main] INFO  hooks.MyHooks - clicked on my account
+09:32:57.991 [main] INFO  hooks.MyHooks - clicked on login
+09:32:57.993 [main] INFO  hooks.MyHooks - ***********executing login data driven******************
+09:32:59.705 [main] INFO  hooks.MyHooks - username entered
+09:33:00.798 [main] INFO  hooks.MyHooks - password entered
+09:33:01.800 [main] INFO  hooks.MyHooks - clicked on login button
+09:33:02.114 [main] INFO  hooks.MyHooks - validating invalid data
+09:33:02.115 [main] INFO  hooks.MyHooks - logged in with invalid data
+09:33:05.666 [main] INFO  hooks.MyHooks - clicked on my account
+09:33:05.945 [main] INFO  hooks.MyHooks - clicked on login
+09:33:05.946 [main] INFO  hooks.MyHooks - ***********executing login data driven******************
+09:33:07.095 [main] INFO  hooks.MyHooks - username entered
+09:33:08.213 [main] INFO  hooks.MyHooks - password entered
+09:33:09.226 [main] INFO  hooks.MyHooks - clicked on login button
+09:33:09.476 [main] INFO  hooks.MyHooks - validating valid data
+09:33:09.476 [main] INFO  hooks.MyHooks - logged in with valid data
+09:34:17.451 [main] INFO  hooks.MyHooks - clicked on my account
+09:34:17.757 [main] INFO  hooks.MyHooks - clicked on login
+09:34:17.863 [main] INFO  hooks.MyHooks -  Username entered
+09:34:17.977 [main] INFO  hooks.MyHooks -  password entered
+09:34:19.303 [main] INFO  hooks.MyHooks - clicked on Login button
+09:34:19.336 [main] INFO  hooks.MyHooks - login successful
+09:35:35.245 [main] INFO  hooks.MyHooks - clicked on my account
+09:35:35.525 [main] INFO  hooks.MyHooks - clicked on login
+09:35:35.612 [main] INFO  hooks.MyHooks -  Username entered
+09:35:35.693 [main] INFO  hooks.MyHooks -  password entered
+09:35:36.948 [main] INFO  hooks.MyHooks - clicked on Login button
+09:35:54.312 [main] INFO  hooks.MyHooks - clicked on my account
+09:35:54.582 [main] INFO  hooks.MyHooks - clicked on login
+09:35:54.686 [main] INFO  hooks.MyHooks -  Username entered
+09:35:54.760 [main] INFO  hooks.MyHooks -  password entered
+09:35:56.024 [main] INFO  hooks.MyHooks - clicked on Login button
+09:35:56.066 [main] INFO  hooks.MyHooks - login successful
+09:45:07.523 [main] INFO  hooks.MyHooks - clicked on my account
+09:45:07.835 [main] INFO  hooks.MyHooks - clicked on login
+09:45:07.926 [main] INFO  hooks.MyHooks -  Username entered
+09:45:08.002 [main] INFO  hooks.MyHooks -  password entered
+09:45:09.317 [main] INFO  hooks.MyHooks - clicked on Login button
+09:45:09.350 [main] INFO  hooks.MyHooks - login successful
+09:47:40.176 [main] INFO  hooks.MyHooks - clicked on my account
+09:47:40.474 [main] INFO  hooks.MyHooks - clicked on login
+09:47:40.568 [main] INFO  hooks.MyHooks -  Username entered
+09:47:40.650 [main] INFO  hooks.MyHooks -  password entered
+09:47:41.891 [main] INFO  hooks.MyHooks - clicked on Login button
+09:47:41.934 [main] INFO  hooks.MyHooks - login successful
+09:48:50.648 [main] INFO  hooks.MyHooks - clicked on my account
+09:48:50.988 [main] INFO  hooks.MyHooks - clicked on login
+09:48:51.080 [main] INFO  hooks.MyHooks -  Username entered
+09:48:51.172 [main] INFO  hooks.MyHooks -  password entered
+09:48:52.452 [main] INFO  hooks.MyHooks - clicked on Login button
+09:50:13.984 [main] INFO  hooks.MyHooks - clicked on my account
+09:50:14.234 [main] INFO  hooks.MyHooks - clicked on login
+09:50:14.327 [main] INFO  hooks.MyHooks -  Username entered
+09:50:14.404 [main] INFO  hooks.MyHooks -  password entered
+09:50:15.658 [main] INFO  hooks.MyHooks - clicked on Login button
+09:51:07.813 [main] INFO  hooks.MyHooks - clicked on my account
+09:51:08.101 [main] INFO  hooks.MyHooks - clicked on login
+09:51:08.196 [main] INFO  hooks.MyHooks -  Username entered
+09:51:08.268 [main] INFO  hooks.MyHooks -  password entered
+09:51:09.486 [main] INFO  hooks.MyHooks - clicked on Login button
+09:51:09.527 [main] INFO  hooks.MyHooks - login successful

@@ -1,0 +1,14 @@
+hooks\MyHooks.class
+hooks\DriverInstance.class
+stepDefinition\SearchProductSteps.class
+stepDefinition\LoginSteps.class
+pageObjects\AccountCreatedPage.class
+utils\ExcelReader.class
+pageObjects\HomePage.class
+pageObjects\MyAccountPage.class
+stepDefinition\RegistrationSteps.class
+pageObjects\RegistrationPage.class
+pageObjects\LoginPage.class
+pageObjects\BasePage.class
+testRunner\TestRunner.class
+pageObjects\SearchPage.class
